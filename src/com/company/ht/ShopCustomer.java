@@ -1,10 +1,9 @@
 package com.company.ht;
 
 public class ShopCustomer {
-    private static String name;
-    private static int age;
-    private static char sex;
-
+    private String name;
+    private int age;
+    private char sex;
 
     public ShopCustomer(String name, int age, char sex) {
         this.name=name;
@@ -12,27 +11,27 @@ public class ShopCustomer {
         this.sex=sex;
     }
 
-    public static String getName() {
+    public String getName() {
         return name;
     }
 
-    public static void setName(String name) {
-        ShopCustomer.name = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public static int getAge() {
+    public int getAge() {
         return age;
     }
 
-    public static void setAge(int age) {
-        ShopCustomer.age = age;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public static char getSex() {
+    public char getSex() {
         return sex;
     }
 
-    public static void setSex(char sex) {
-        ShopCustomer.sex = sex;
+    public void setSex(char sex) {
+        this.sex = sex;
     }
 }
